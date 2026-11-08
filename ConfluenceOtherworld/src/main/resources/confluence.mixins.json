@@ -105,6 +105,7 @@
     ],
     "client": [
         "client.MinecraftMixin",
+        "client.renderer.GameRendererGraphicsMixin",
         "client.player.AbstractClientPlayerSkinMixin",
         "client.multiplayer.ClientPacketListenerPickupMixin",
         "client.MouseHandlerMixin",
