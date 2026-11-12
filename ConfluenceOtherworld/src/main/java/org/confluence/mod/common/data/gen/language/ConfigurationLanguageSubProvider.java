@@ -356,6 +356,8 @@ public final class ConfigurationLanguageSubProvider {
         language.add("confluence.configuration.terrariaExperienceBar.tooltip", "Terraria interface: show the experience bar under the hotbar (Terraria has no experience).", "泰拉界面：在快捷栏下方显示经验条（泰拉没有经验）。");
         language.add("confluence.configuration.disableHunger", "Disable Hunger", "关闭饥饿");
         language.add("confluence.configuration.disableHunger.tooltip", "Like Terraria: no hunger, food heals a little instead.", "与泰拉一致：没有饥饿，食物改为回复少量生命。");
+        language.add("confluence.configuration.treeFelling", "Tree Felling", "整棵伐木");
+        language.add("confluence.configuration.treeFelling.tooltip", "Like Terraria: chopping a trunk with an axe brings down the whole tree above the cut; it falls and breaks into drops. Sneak to chop one block. Living trees and log buildings are never felled.", "与泰拉一致：用斧头砍树干，砍口以上的整棵树倒下并碎成掉落物。潜行时只砍一格。生命树和原木建筑不会被整棵伐倒。");
         language.add("confluence.configuration.foodHealPerNutrition", "Food Heal per Nutrition", "每点饱食度回复生命");
         language.add("confluence.configuration.foodHealPerNutrition.tooltip", "Health restored per point of food nutrition when hunger is disabled (4 health = 1 heart).", "关闭饥饿时，每点饱食度回复的生命（4 点 = 1 颗心）。");
         language.add("confluence.configuration.terrariaInterface.tooltip", "Terraria-style inventory, hotbar, chests and crafting. Can also be toggled with the button in the inventory.", "泰拉风格的背包、快捷栏、箱子与合成。也可以用背包里的按钮切换。");

@@ -34,6 +34,8 @@ public final class CommonConfigs {
     /// 泰拉没有饥饿：饱食度固定，食物改为立即回复少量生命
     public static BooleanValue DISABLE_HUNGER;
     public static ModConfigSpec.DoubleValue FOOD_HEAL_PER_NUTRITION;
+    /// 泰拉式伐木：斧头砍树干，砍口以上整棵树倒下（潜行只砍一格）
+    public static BooleanValue TREE_FELLING;
     public static BooleanValue TERRA_STYLE_FIRE_DAMAGE;
     public static BooleanValue NPC_INVULNERABLE_TO_PLAYER;
     public static BooleanValue VILLAGER_INVULNERABLE_TO_PLAYER;
@@ -238,6 +240,7 @@ public final class CommonConfigs {
             STOP_ASK_FOR_SOFTCORE = builder.define("stopAskForSoftcore", false);
             DISABLE_HUNGER = builder.comment("Terraria has no hunger: food level stays fixed, eating heals a little instead.").define("disableHunger", false);
             FOOD_HEAL_PER_NUTRITION = builder.comment("Health restored per point of food nutrition when hunger is disabled.").defineInRange("foodHealPerNutrition", 0.5D, 0.0D, 10.0D);
+            TREE_FELLING = builder.comment("Chopping a tree trunk with an axe fells the whole tree above the cut, like in Terraria. Sneak to chop a single block.").define("treeFelling", true);
             {
                 builder.push("AutomaticWeaponUse");
                 AUTO_SWING_ALL_SWORDS = builder.define("autoSwingAllSwords", false);
